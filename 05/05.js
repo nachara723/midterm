@@ -1,5 +1,10 @@
-function strlen(){
+
+function strlen(a){
+    return a.length;
 }
 
-function concat(){
+function concat(a, b){
+    return a + b;
 }
+
+

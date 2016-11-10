@@ -1,2 +1,7 @@
-function classifyInt(){
+function classifyInt(n){
+    if (n % 2 == 0){
+        return ("偶数");
+    }else{
+        return ("奇数");
+    }
 }
